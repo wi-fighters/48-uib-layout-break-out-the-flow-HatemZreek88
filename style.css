@@ -8,4 +8,8 @@ body {
   width: 200px;
   height: 200px;
   background-color: orange;
+  position: absolute; /* to center the box*/
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* to center the box*/
 }
